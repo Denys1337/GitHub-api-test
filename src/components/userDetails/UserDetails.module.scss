@@ -1,0 +1,56 @@
+.wrap {
+  width: 35%;
+  min-width: 200px;
+  padding: 10px;
+  background: #c6c6c6;
+  margin: 0 auto;
+  gap: 0 30px;
+}
+
+.WrapperDetails {
+  display: flex;
+  
+  justify-content: space-around;
+  
+  &__avatar {
+    width: 30%;
+    min-width: 80px;
+    height:fit-content;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    p {
+      font-size: 20px;
+      font-weight: bold;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      padding-bottom: 10px;
+      span {
+        font-size: 18px;
+        font-weight: 200;
+      }
+    }
+  }
+  
+}
+
+.WrapRepo {
+  width: 100%;
+  padding-top: 10px;
+  .repo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+  }
+  input {
+    width: 50%;
+    min-width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #000;
+    color: #fff;
+  }
+}
